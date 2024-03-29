@@ -15,4 +15,6 @@ import jakarta.persistence.EntityManager;
 @RestController
 public class BookController {
 	
+	@Autowired
+	private EntityManager entityManger;
 }
